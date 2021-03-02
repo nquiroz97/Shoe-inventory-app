@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- ConstraintLayout: flattens nested/hierarchical components tree -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/shoe_size"
+            android:layout_width="85dp"
+            android:layout_height="87dp"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="Size" />
+
+        <TextView
+            android:id="@+id/shoe_name"
+            android:layout_width="155dp"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/shoe_description"
+            app:layout_constraintStart_toEndOf="@+id/shoe_size"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/shoe_description"
+            android:layout_width="326dp"
+            android:layout_height="42dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/shoe_size"
+            app:layout_constraintTop_toBottomOf="@+id/shoe_name"
+            tools:text="Description" />
+
+        <TextView
+            android:id="@+id/shoe_company"
+            android:layout_width="168dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="1dp"
+            android:gravity="center_vertical"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/shoe_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/shoe_name"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Company" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="welcome_screen_text">
+        <item>Welcome</item>
+        <item>Let\'s go over</item>
+        <item>a few things first</item>
+    </string-array>
+</resources>

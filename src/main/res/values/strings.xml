@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="email_text_label">Please enter your email</string>
+    <string name="passwordTextHint">Password</string>
+    <string name="password_text_label">Please enter your password</string>
+    <string name="email_text_hint">Email</string>
+    <string name="confirm_password_label">Confirm password</string>
+    <string name="confirm_password_hint">Re-enter password</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="store_logo">Store Logo</string>
+    <string name="button_start_text">Go</string>
+    <string name="add_shoe">add shoe</string>
+    <string name="got_it">Got it!</string>
+    <string name="shoe_image">shoe image</string>
+    <string name="shoe_details">Shoe Details</string>
+    <string name="shoe_name">Shoe name</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="company_name">Company name</string>
+    <string name="shoe_size">Shoe size</string>
+    <string name="cancel_shoe">Cancel: if the new shoe is not satisfactory, cancel to return to the shoe inventory list</string>
+    <string name="save_shoe">Save: if you want to add a new shoe, please click save to add to the shoe inventory list</string>
+    <string name="no_auth">Not Authorized, please try email/password again.</string>
+    <string name="instruction">Instructions</string>
+    <string name="login">Log-in</string>
+    <string name="welcome">Welcome</string>
+    <string name="logout">Log-out</string>
+    <string name="list">Shoe List</string>
+    <string name="welcome_screen">Welcome</string>
+</resources>
